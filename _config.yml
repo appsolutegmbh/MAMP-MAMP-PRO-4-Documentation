@@ -1,7 +1,7 @@
 encoding: utf-8
 timezone: Europe/Berlin
 
-baseurl: https://documentation.mamp.info
+baseurl: https://documentation-4.mamp.info
 
 gems:
   - jekyll-sitemap
