@@ -1,0 +1,19 @@
+{% assign page_url = page.url | remove: 'index.html' %}
+<!DOCTYPE html>
+<html>
+ 	{% include head.html %}
+ 	<body>
+ 		<div class="container">
+			{% include header.html %}
+			<div class="row">
+				<div class="col-xxs-12 col-xs-12 col-s-12 col-m-12 col-l-12" id="content">
+					<main>
+						{{ content }}
+					</main>
+				</div>
+			</div>
+			{% include footer.html %}
+		</div>
+		{% include google-analytics.html %}
+	</body>
+</html>

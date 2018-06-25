@@ -1,0 +1,20 @@
+<header>
+	<div class="row">
+		<div class="col-xxs-12 col-xs-12 col-s-9 col-m-9 col-l-9">
+			<h1>
+				{% if page.language == nil or page.language == "en" %}
+					<a href="/">MAMP &amp; MAMP PRO 4 Documentation</a>
+				{% elsif page.language == "de" %}
+					<a href="/">MAMP &amp; MAMP PRO 4 Dokumentation</a>
+				{% endif %}
+			</h1>
+		</div>
+		<div class="col-xxs-12 col-xs-12 col-s-3 col-m-3 col-l-3">
+			{% if page.language == "en" %}
+				<form action="/en/Search/" method="get">
+					<input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search term" required>
+				</form>
+			{% endif %}
+		</div>
+	</div>
+</header>

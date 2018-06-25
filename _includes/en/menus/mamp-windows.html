@@ -1,0 +1,23 @@
+{% if page.product == "MAMP Windows" and page.language == "en" %}
+<ul class="no-bullets">
+	<li><a href="/en/MAMP-Windows/Installation/"{% if page_url contains "/en/MAMP-Windows/Installation/" %} class="active"{% endif %}>Installation</a></li>
+	<li><a href="/en/MAMP-Windows/First-Steps/"{% if page_url contains "/en/MAMP-Windows/First-Steps/" %} class="active"{% endif %}>First-Steps</a></li>
+	<li><a href="/en/MAMP-Windows/Preferences/Open-WebStart-Page/"{% if page_url contains "/en/MAMP-Windows/Preferences/Open-WebStart-Page/" %} class="active"{% endif %}>Open WebStart Page</a></li>
+	<li>
+		<a href="/en/MAMP-Windows/Preferences/"{% if page_url contains "/en/MAMP-Windows/Preferences/" %} class="active"{% endif %}>Preferences</a>
+		{% if page_url contains "/en/MAMP-Windows/Preferences/" %}
+			<ul class="no-bullets">
+				<li><a href="/en/MAMP-Windows/Preferences/Start-Stop/"{% if page_url contains "/en/MAMP-Windows/Preferences/Start-Stop/" %} class="active"{% endif %}>Start/Stop</a></li>
+				<li><a href="/en/MAMP-Windows/Preferences/Ports/"{% if page_url contains "/en/MAMP-Windows/Preferences/Ports/" %} class="active"{% endif %}>Ports</a></li>
+				<li><a href="/en/MAMP-Windows/Preferences/PHP/"{% if page_url contains "/en/MAMP-Windows/Preferences/PHP/" %} class="active"{% endif %}>PHP</a></li>
+				<li><a href="/en/MAMP-Windows/Preferences/Web-Server/"{% if page_url contains "/en/MAMP-Windows/Preferences/Web-Server/" %} class="active"{% endif %}>Web Server</a></li>
+				<li><a href="/en/MAMP-Windows/Preferences/MySQL/"{% if page_url contains "/en/MAMP-Windows/Preferences/MySQL/" %} class="active"{% endif %}>MySQL</a></li>
+			</ul>
+		{% endif %}
+	</li>
+	<li><a href="/en/MAMP-Windows/Menu/"{% if page_url contains "/en/MAMP-Windows/Menu/" %} class="active"{% endif %}>Menu</a></li>
+	<li><a href="/en/MAMP-Windows/FAQ/"{% if page_url contains "/en/MAMP-Windows/FAQ/" %} class="active"{% endif %}>FAQ</a></li>
+	<li><a href="/en/MAMP-Windows/How-Tos/"{% if page_url contains "/en/MAMP-Windows/How-Tos/" %} class="active"{% endif %}>How-Tos</a></li>
+</ul>
+{% endif %}
+

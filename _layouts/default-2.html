@@ -1,0 +1,27 @@
+{% assign page_url = page.url | remove: 'index.html' %}
+<!DOCTYPE html>
+<html>
+ 	{% include head.html %}
+ 	<body>
+ 		<div class="container">
+			{% include header.html %}
+			<div class="row">
+				<div class="col-xxs-12 col-xs-12 col-s-3 col-m-3 col-l-3 sidebar">
+					{% include en/menus/mamp-pro-mac.html %}
+					{% include en/menus/mamp-pro-windows.html %}
+					{% include en/menus/mamp-mac.html %}
+					{% include en/menus/mamp-windows.html %}
+					{% include de/menus/mamp-pro-mac.html %}
+					{% include de/menus/mamp-mac.html %}
+				</div>
+				<div class="col-xxs-12 col-xs-12 col-s-9 col-m-9 col-l-9" id="content">
+					<main>
+						{{ content }}
+					</main>
+				</div>
+			</div>
+			{% include footer.html %}
+		</div>
+		{% include google-analytics.html %}
+	</body>
+</html>

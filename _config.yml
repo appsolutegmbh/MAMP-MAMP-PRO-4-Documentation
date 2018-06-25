@@ -1,0 +1,18 @@
+encoding: utf-8
+timezone: Europe/Berlin
+
+baseurl: https://documentation.mamp.info
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+future: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      author: appsolute GmbH

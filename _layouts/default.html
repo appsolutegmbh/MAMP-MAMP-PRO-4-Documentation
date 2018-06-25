@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ 	{% include head.html %}
+ 	<body>
+ 		<div class="container">
+			{% include header.html %}
+			<div class="row">
+				<div class="col-xxs-12 col-xs-12 col-s-3 col-m-3 col-l-3 sidebar" id="toc"></div>
+				<div class="col-xxs-12 col-xs-12 col-s-9 col-m-9 col-l-9" id="content">
+					<main>
+						{{ content }}
+					</main>
+				</div>
+			</div>
+			{% include footer.html %}
+		</div>
+
+<script type="text/javascript">
+var all = document.getElementById("content").getElementsByTagName("*");
+var nodes = []; 
+for(var i = all.length; i--; nodes.unshift(all[i]));
+var result = document.createElement("ul");
+att = document.createAttribute("class");
+                att.value = "no-bullets";
+                result.setAttributeNode(att);
+buildTOC(nodes, result, 1);
+document.getElementById("toc").appendChild(result);
+</script>
+{% include google-analytics.html %}
+	</body>
+</html>

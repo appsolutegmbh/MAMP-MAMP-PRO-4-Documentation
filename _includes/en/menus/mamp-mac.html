@@ -1,0 +1,46 @@
+{% if page.product == "MAMP Mac" and page.language == "en" %}
+<ul class="no-bullets">
+	<li><a href="/en/MAMP-Mac/Installation/"{% if page_url contains "/en/MAMP-Mac/Installation/" %} class="active"{% endif %}>Installation</a></li>
+	<li><a href="/en/MAMP-Mac/First-Steps/"{% if page_url contains "/en/MAMP-Mac/First-Steps/" %} class="active"{% endif %}>First-Steps</a></li>
+	<li>
+		<a href="/en/MAMP-Mac/Cloud/"{% if page_url contains "/en/MAMP-Mac/Cloud/" %} class="active"{% endif %}>Cloud</a>
+		{% if page_url contains "/en/MAMP-Mac/Cloud/" %}
+			<ul class="no-bullets">
+				<li><a href="/en/MAMP-Mac/Cloud/PurchaseRegister/"{% if page_url contains "/en/MAMP-Mac/Cloud/PurchaseRegister/" %} class="active"{% endif %}>Purchase and Register</a></li>
+				<li><a href="/en/MAMP-Mac/Cloud/CloudFunctions/"{% if page_url contains "/en/MAMP-Mac/Cloud/CloudFunctions/" %} class="active"{% endif %}>Cloud Functions</a></li>
+				<li><a href="/en/MAMP-Mac/Cloud/CloudFAQ"{% if page_url contains "/en/MAMP-Mac/Cloud/CloudFAQ" %} class="active"{% endif %}>Cloud FAQ</a></li>
+			</ul>
+		{% endif %}
+	</li>
+	<li><a href="/en/MAMP-Mac/Preferences/Open-WebStart-Page/"{% if page_url contains "/en/MAMP-Mac/Preferences/Open-WebStart-Page/" %} class="active"{% endif %}>Open WebStart Page</a></li>
+	<li>
+		<a href="/en/MAMP-Mac/Preferences/"{% if page_url contains "/en/MAMP-Mac/Preferences/" %} class="active"{% endif %}>Preferences</a>
+		{% if page_url contains "/en/MAMP-Mac/Preferences/" %}
+			<ul class="no-bullets">
+				<li><a href="/en/MAMP-Mac/Preferences/Start-Stop/"{% if page_url contains "/en/MAMP-Mac/Preferences/Start-Stop/" %} class="active"{% endif %}>Start/Stop</a></li>
+				<li><a href="/en/MAMP-Mac/Preferences/Ports/"{% if page_url contains "/en/MAMP-Mac/Preferences/Ports/" %} class="active"{% endif %}>Ports</a></li>
+				<li><a href="/en/MAMP-Mac/Preferences/PHP/"{% if page_url contains "/en/MAMP-Mac/Preferences/PHP/" %} class="active"{% endif %}>PHP</a></li>
+				<li><a href="/en/MAMP-Mac/Preferences/Web-Server/"{% if page_url contains "/en/MAMP-Mac/Preferences/Web-Server/" %} class="active"{% endif %}>Web Server</a></li>
+				<li><a href="/en/MAMP-Mac/Preferences/MySQL/"{% if page_url contains "/en/MAMP-Mac/Preferences/MySQL/" %} class="active"{% endif %}>MySQL</a></li>
+				<li><a href="/en/MAMP-Mac/Preferences/Cloud/"{% if page_url contains "/en/MAMP-Mac/Preferences/Cloud/" %} class="active"{% endif %}>Cloud</a></li>
+			</ul>
+		{% endif %}
+	</li>
+	<li><a href="/en/MAMP-Mac/Menu/"{% if page_url contains "/en/MAMP-Mac/Menu/" %} class="active"{% endif %}>Menu</a></li>
+	<li><a href="/en/MAMP-Mac/FAQ/"{% if page_url contains "/en/MAMP-Mac/FAQ/" %} class="active"{% endif %}>FAQ</a></li>
+	<li>
+		<a href="/en/MAMP-Mac/How-Tos/"{% if page_url contains "/en/MAMP-Mac/How-Tos/" %} class="active"{% endif %}>How-Tos</a>
+		{% if page_url contains "/en/MAMP-Mac/How-Tos/" %}
+			<ul class="no-bullets">
+				<li><a href="/en/MAMP-Mac/How-Tos/Change-the-password-of-the-MySQL-root-user/"{% if page_url contains "/en/MAMP-Mac/How-Tos/Change-the-password-of-the-MySQL-root-user/" %} class="active"{% endif %}>Change the password of the MySQL root user</a></li>
+				<li><a href="/en/MAMP-Mac/How-Tos/Check-the-Default-Storage-Engine-of-MySQL/"{% if page_url contains "/en/MAMP-Mac/How-Tos/Check-the-Default-Storage-Engine-of-MySQL/" %} class="active"{% endif %}>Check the Default Storage Engine of MySQL</a></li>
+				<li><a href="/en/MAMP-Mac/How-Tos/Set-the-MySQL-Default-Storage-Engine/"{% if page_url contains "/en/MAMP-Mac/How-Tos/Set-the-MySQL-Default-Storage-Engine/" %} class="active"{% endif %}>Set the MySQL Default Storage Engine</a></li>
+				<li><a href="/en/MAMP-Mac/How-Tos/Connect-to-MySQL-from-PHP/"{% if page_url contains "/en/MAMP-Mac/How-Tos/Connect-to-MySQL-from-PHP/" %} class="active"{% endif %}>Connect to MySQL from PHP</a></li>
+				<li><a href="/en/MAMP-Mac/How-Tos/Wordpress/"{% if page_url contains "/en/MAMP-Mac/How-Tos/Wordpress/" %} class="active"{% endif %}>How to install Wordpress</a></li>
+				<li><a href="/en/MAMP-Mac/How-Tos/Joomla/"{% if page_url contains "/en/MAMP-Mac/How-Tos/Joomla/" %} class="active"{% endif %}>How to install Joomla</a></li>
+				<li><a href="/en/MAMP-Mac/How-Tos/Drupal/"{% if page_url contains "/en/MAMP-Mac/How-Tos/Drupal/" %} class="active"{% endif %}>How to install Drupal</a></li>
+			</ul>
+		{% endif %}
+	</li>
+</ul>
+{% endif %}
