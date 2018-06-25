@@ -16,7 +16,7 @@ Note: We cannot provide support for installing or maintaining MongoDB.
 
 ---
 
-First compile a mongoDB extension using PECL. We have a How-To guide on how to compile your own [mongoDB extension](http://documentation.mamp.info/en/MAMP-PRO-Mac/How-Tos/General/PECL/){:target="_blank"}.
+First compile a mongoDB extension using PECL. We have a How-To guide on how to compile your own [mongoDB extension](http://documentation-4.mamp.info/en/MAMP-PRO-Mac/How-Tos/General/PECL/){:target="_blank"}.
 
 ---
 
