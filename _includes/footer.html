@@ -2,30 +2,9 @@
 	<div class="row">
 		<div class="col-xxs-12 col-xs-12 col-s-8 col-m-8 col-l-8">
 			© Copyright 2004 - {{ site.time | date: '%Y' }} <a href="https://www.appsolute.de" target="_blank">appsolute GmbH</a> / 
-			{% if page.language == "en" %}
-				<a href="/de/Impressum/">Legal Notice</a> / <a href="/de/Datenschutzerklaerung/">Privacy Policy</a>
-			{% elsif page.language == "de" %}
-				<a href="/de/Impressum/">Impressum</a> / <a href="/de/Datenschutzerklaerung/">Datenschutzerklärung</a>
-			{% else %}
-				<a href="/de/Impressum/">Legal Notice</a> / <a href="/de/Datenschutzerklaerung/">Privacy Policy</a>
-			{% endif %}
+			<a href="/en/Legal-Notice/">Legal Notice</a> / <a href="/en/Privacy-Policy/">Privacy Policy</a>
 		</div>
 		<div class="col-xxs-12 col-xs-12 col-s-4 col-m-4 col-l-4 text-push">
-			{% comment %}
-			{% if page.language == "en" %}
-				{% if page.product == "MAMP Mac" %}
-					<a href="/de/MAMP-Mac/">deutsch</a>
-				{% elsif page.product == "MAMP PRO Mac" %}
-					<a href="/de/MAMP-PRO-Mac/">deutsch</a>
-				{% endif %}
-			{% elsif page.language == "de" %}
-				{% if page.product == "MAMP Mac" %}
-					<a href="/en/MAMP-Mac/">english</a>
-				{% elsif page.product == "MAMP PRO Mac" %}
-					<a href="/en/MAMP-PRO-Mac/">english</a>
-				{% endif %}
-			{% endif %}
-			{% endcomment %}
 		</div>
 	</div>
 </footer>

@@ -1,11 +1,11 @@
 ---
-title: MAMP & MAMP PRO Dokumentation - Datenschutzerklärung
-description: MAMP & MAMP PRO Dokumentation - Datenschutzerklärung
+title: MAMP & MAMP PRO Dokumentation - Datenschutzerklärung (Privacy Policy)
+description: MAMP & MAMP PRO Dokumentation - Datenschutzerklärung (Privacy Policy)
 layout: default-1
-language: de
+language: en
 ---
 
-## Datenschutzerklärung
+## Datenschutzerklärung (Privacy Policy)
 
 ### Datenschutz
 

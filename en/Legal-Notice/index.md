@@ -1,11 +1,11 @@
 ---
-title: MAMP & MAMP PRO Dokumentation - Impressum
-description: MAMP & MAMP PRO Dokumentation - Impressum
+title: MAMP & MAMP PRO Dokumentation - Impressum (Legal Notice)
+description: MAMP & MAMP PRO Dokumentation - Impressum (Legal Notice)
 layout: default-1
-language: de
+language: en
 ---
 
-## Impressum
+## Impressum (Legal Notice)
 
 appsolute GmbH  
 In den Niederwiesen 4a  
