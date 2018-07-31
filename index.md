@@ -5,7 +5,7 @@ layout: default-1
 ---
 
 <div class="alert" role="alert">
-Note: This is the documentation for the outdated version 4 of MAMP and MAP PRO. The documentation for the current version can be found under https://documentation-5.mamp.info.
+Note: This is the documentation for the outdated version 4 of MAMP & MAMP PRO. The documentation for the current version can be found under https://documentation-5.mamp.info.
 </div>
 
 - [MAMP (Mac)](/en/MAMP-Mac/)
