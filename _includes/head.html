@@ -17,15 +17,26 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">
 	<link rel="canonical" href="{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">
-	<title>{{ page.title }}</title>
+	<title>{{ page.title | xml_escape }}</title>
 	<link href="/assets/css/responsive.min.css" rel="stylesheet" type="text/css">
-	<link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="/assets/css/fonts.css" rel="stylesheet" type="text/css">
+	<link href="/assets/css/rouge-github.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/styles.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/keys.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="/assets/js/misc.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-	
-	<link href="/assets/tipuesearch/tipuesearch.css" rel="stylesheet">
+
+	<link rel="icon" type="img/ico" href="/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/fontawesome.js"></script>
+	<script>
+		window.FontAwesomeConfig = {
+			searchPseudoElements: true
+		}
+
+		const urlParams = new URLSearchParams(window.location.search);
+	</script>
 	<script src="/assets/tipuesearch/tipuesearch_set.js"></script>
-	<script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+	<link rel="stylesheet" href="/assets/tipuesearch/tipuesearch.css">
+	<script src="/assets/tipuesearch/tipuesearch.js"></script>
 </head>

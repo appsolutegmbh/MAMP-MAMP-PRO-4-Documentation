@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.language }}">
  	{% include head.html %}
  	<body>
  		<div class="container">
@@ -15,7 +15,7 @@
 			{% include footer.html %}
 		</div>
 
-<script type="text/javascript">
+<script>
 var all = document.getElementById("content").getElementsByTagName("*");
 var nodes = []; 
 for(var i = all.length; i--; nodes.unshift(all[i]));
@@ -29,3 +29,4 @@ document.getElementById("toc").appendChild(result);
 {% include matomo.html %}
 	</body>
 </html>
+

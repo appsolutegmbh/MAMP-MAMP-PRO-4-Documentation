@@ -1,23 +1,19 @@
 {% assign page_url = page.url | remove: 'index.html' %}
 <!DOCTYPE html>
-<html>
- 	{% include head.html %}
- 	<body>
- 		<div class="container">
-			{% include header.html %}
-			<div class="alert" role="alert">
-				Note: This is the documentation for the outdated version 4 of MAMP & MAMP PRO. The documentation for the current version can be found under <a href="https://documentation.mamp.info" target="_blank">https://documentation.mamp.info</a>.
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-xxs-12 col-xs-12 col-s-12 col-m-12 col-l-12" id="content">
-					<main>
-						{{ content }}
-					</main>
-				</div>
-			</div>
-			{% include footer.html %}
-		</div>
-		{% include matomo.html %}
-	</body>
+<html lang="{{ page.language }}">
+  {% include head.html %}
+  <body>
+    <div class="container">
+      {% include header.html %}
+      <div class="row">
+        <div class="col-xxs-12 col-xs-12 col-s-12 col-m-12 col-l-12" id="content">
+          <main>
+            {{ content }}
+          </main>
+        </div>
+      </div>
+      {% include footer.html %}
+    </div>
+    {% include matomo.html %}
+  </body>
 </html>
