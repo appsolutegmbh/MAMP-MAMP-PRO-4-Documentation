@@ -8,7 +8,7 @@ language: en
 
 ## How-Tos
 
-- [How to install Wordpress](Wordpress/)  
+- [How to install WordPress](WordPress/)  
 - [How to install Joomla](Joomla/)  
 - [How To install Drupal](Drupal/)
 

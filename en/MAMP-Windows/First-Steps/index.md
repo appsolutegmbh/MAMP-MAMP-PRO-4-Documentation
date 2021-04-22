@@ -13,7 +13,7 @@ After successful installation you can launch your local servers. Start MAMP and 
 
 The web server (Apache) starts by default on port 8888, the database server (MySQL) on port 8889. When calling your web page in a web browser, you must enter the Apache port at the end of the URL, e.g.: http://localhost:8888 
 
-A quickstart for installing Wordpress is available [here](../How-Tos).
+A quickstart for installing WordPress is available [here](../How-Tos).
 
 ![MAMP](/en/MAMP-Windows/First-Steps/MAMP.png)
 

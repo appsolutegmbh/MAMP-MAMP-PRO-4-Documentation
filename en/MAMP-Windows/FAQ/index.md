@@ -4,6 +4,7 @@ description:
 layout: default-2
 product: MAMP Windows
 language: en
+lastedit: 2021-03-26
 ---
 
 ## FAQ
@@ -28,13 +29,13 @@ Get the latest version of MAMP from our website [https://www.mamp.info/en/downlo
 
 ### Where can I find error log files?
 
-All log files are stored in: `c:\MAMP\logs`.
+All log files are stored in: "C:\MAMP\logs".
 
 ---
 
 ### Which Apache modules are included?
 
-Apache modules are located in the `c:\MAMP\Library\modules` folder.
+Apache modules are located in the "C:\MAMP\Library\modules" folder.
 
 ---
 
@@ -49,17 +50,16 @@ Click on the phpInfo tab at the top of page.
 
 ### Where is my database data located in MAMP for Windows?
 
-Your database data is located in `C:\MAMP\db\mysql\` . 
+Your database data is located in "C:\MAMP\db\mysql\".
 
 ---
 
 ### Where is my php.ini file located?
 
-Your php.ini for MAMP is located in `C:\MAMP\conf\phpX.XX`.
+Your php.ini for MAMP is located in "C:\MAMP\conf\phpX.XX".
 
 ---
 
 ### Where is my httpd.conf file located?
 
-Your httpd.conf file is located in `C:\MAMP\conf\apache\httpd.conf`.
-
+Your httpd.conf file is located in "C:\MAMP\conf\apache\httpd.conf".

@@ -36,7 +36,7 @@ Sometimes you may need to send an email using PHP, to do so you have to configur
        Ask your provider if you are unsure about the server name.  
 
     *  **Use authentication**  
-       Unencrypted: Your username and password will be sent unencrypted.
+       Unencrypted: Your user name and password will be sent unencrypted.
        
        MD5 Challenge-Response: MD5 Challenge Response Authentication will be used.
 

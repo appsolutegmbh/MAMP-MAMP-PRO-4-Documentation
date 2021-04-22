@@ -1,5 +1,5 @@
 ---
-title: MAMP PRO (Mac) Documentation > How Tos > MySQL
+title: MAMP PRO (Windows) Documentation > How Tos > MySQL
 description: 
 layout: default-2
 product: MAMP PRO Mac
@@ -8,8 +8,7 @@ language: en
 
 ### Connect To MySQL using Perl 
 
-{% highlight php %}
-
+```perl
 use DBI;
  
 my $user = 'root';
@@ -21,13 +20,11 @@ my $link = DBI->connect(
    $user, 
    $password
 );
-
-{% endhighlight %}
+```
 
 or connecting via network:
 
-{% highlight php %}
-
+```perl
 use DBI;
  
 my $user = 'root';
@@ -41,5 +38,4 @@ my $link = DBI->connect(
    $user, 
    $password
 );
-
-{% endhighlight %}
+```

@@ -1,14 +1,15 @@
 ---
-title: MAMP PRO (Mac) Documentation > Servers and Services > Nginx
+title: MAMP PRO (Windows) Documentation > Servers and Services > Nginx
 description: 
 layout: default-2
 product: MAMP PRO Windows
 language: en
+lastedit: 2021-03-26
 ---
 
 ## Servers and Services > Nginx
 
-The Nginx Web Server is a popular web server used in production environments. An instance of Nginx is installed on your Mac by MAMP PRO.  Information on how to custom configure your Nginx Server can be found [here](../../Settings/Hosts/Nginx) . 
+The Nginx Web Server is a popular web server used in production environments. An instance of Nginx is installed on your Mac by MAMP PRO.  Information on how to custom configure your Nginx Server can be found [here](../../Settings/Hosts/Nginx). 
 
 ![MAMP](/en/MAMP-PRO-Windows/Servers-and-Services/Nginx/Nginx.png)
 
@@ -20,16 +21,16 @@ The Nginx Web Server is a popular web server used in production environments. An
 
 *  **Use Nginx as a Reverse Proxy for Apache**  
 
-    Check to use Nginx as a reverse proxy for Apache. When this option is checked the following will be added to your  `C:\Users\Public\Documents\Appsolute\MAMPPRO\conf\` file. Your requests will now be forwarded to your Apache server localhost.
+    Check to use Nginx as a reverse proxy for Apache. When this option is checked the following will be added to your "C:\Users\Public\Documents\Appsolute\MAMPPRO\conf\" file. Your requests will now be forwarded to your Apache server localhost.
     
-    {% highlight php %}
-        # proxy the PHP scripts to Apache
-        location ~ \.php$ {
-            proxy_set_header Host $host;
-            proxy_set_header X-Real-IP $remote_addr;
-            proxy_pass http://xxx.xxx.x.xxx:8888;
-        }    
-    {% endhighlight %}
+    ```
+    # proxy the PHP scripts to Apache
+    location ~ \.php$ {
+      proxy_set_header Host $host;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_pass http://xxx.xxx.x.xxx:8888;
+    }    
+    ```
 
 ---
 

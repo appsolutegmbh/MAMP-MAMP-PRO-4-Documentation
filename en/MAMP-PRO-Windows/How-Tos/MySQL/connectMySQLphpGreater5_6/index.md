@@ -1,5 +1,5 @@
 ---
-title: MAMP PRO (Mac) Documentation > How Tos > MySQL
+title: MAMP PRO (Windows) Documentation > How Tos > MySQL
 description: 
 layout: default-2
 product: MAMP PRO Mac
@@ -8,8 +8,7 @@ language: en
 
 ### Connect to MySQL from PHP (PHP >= 5.6.x)
 
-{% highlight php %}
-
+```php
 $user = 'root';
 $password = 'root';
 $db = 'inventory';
@@ -25,6 +24,4 @@ $success = mysqli_real_connect(
    $db,
    $port
 );
-
-{% endhighlight %}
-
+```

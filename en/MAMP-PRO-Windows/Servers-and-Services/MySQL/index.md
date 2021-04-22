@@ -4,13 +4,12 @@ description:
 layout: default-2
 product: MAMP PRO Windows
 language: en
+lastedit: 2021-03-26
 ---
 
 ## Servers and Services > MySQL
 
-The MySQL database server is a popular database used on production servers. An installation of MySQL is installed on your computer by MAMP PRO. Your MAMP PRO MySQL database data is located in `C:\Users\Public\Documents\Appsolute\MAMPPRO\db\`. To connect to your MySQL database in MAMP PRO you must use TCP/IP (network) connections.
-
-
+The MySQL database server is a popular database used on production servers. An installation of MySQL is installed on your computer by MAMP PRO. Your MAMP PRO MySQL database data is located in "C:\Users\Public\Documents\Appsolute\MAMPPRO\db\". To connect to your MySQL database in MAMP PRO you must use TCP/IP (network) connections.
 
 ![MAMP](/en/MAMP-PRO-Windows/Servers-and-Services/MySQL/MySQL.png)
 
@@ -32,8 +31,7 @@ The MySQL database server is a popular database used on production servers. An i
 
 *  **Administer MySQL with**  
 
-    *  **phpMyAdmin** is a web-based administrational tool. It allows you to change data and perform administrative duties
-       like creating new databases.
+    *  **phpMyAdmin** is a web-based administrational tool. It allows you to change data and perform administrative duties like creating new databases.
 
 ---
 

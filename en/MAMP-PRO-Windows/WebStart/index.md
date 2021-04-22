@@ -4,6 +4,7 @@ description:
 layout: default-2
 product: MAMP PRO Windows
 language: en
+lastedit: 2021-03-26
 ---
 
 ## WebStart
@@ -14,7 +15,7 @@ The default MAMP PRO WebStart page provides links to access utilities such as ph
 
 ### PHPInfo
 
-PHPInfo provides general information about your php interpreter. Information including which extensions are included can be found using phpInfo.
+PHPInfo provides general information about your PHP interpreter. Information including which extensions are included can be found using phpInfo.
 
 ![MAMP](/en/MAMP-PRO-Mac/WebStart/php.ini.png)
 
@@ -30,7 +31,7 @@ To access the [phpInfo of each individual host](../Settings/Hosts/General/#php_i
 
     phpMyAdmin is a web based database administrator. Your MAMP PRO instance of phpMyAdmin can be accessed through a link in the WebStart page. The source files for this instance of phpMyAdmin are located in 
 
-    `C:\Public\Public Documents\MAMPPRO\phpmyadmin`.
+    "C:\Public\Public Documents\MAMPPRO\phpmyadmin".
 
 *  **SQL Lite Manager**  
     A link to your SQL lite manager.

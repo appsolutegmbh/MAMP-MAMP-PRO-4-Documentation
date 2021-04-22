@@ -19,7 +19,7 @@ Fork is an open source content management system. More information about Fork ca
    The name of your database schema which will be added to your local database. After installation you can view this database for this instance of Fork using phpMyAdmin, Sequel Pro, or MySQLWorkbench. 
 
 *  **Email address:**  
-   Your email address. ForkCMS will use this email address as the admin username.
+   Your email address. ForkCMS will use this email address as the admin user name.
    
    <div class="alert" role="alert"> 
    Note: You must enter a valid email address to setup a Fork installation.

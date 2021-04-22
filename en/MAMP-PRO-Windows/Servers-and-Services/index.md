@@ -1,5 +1,5 @@
 ---
-title: MAMP PRO (Mac) Documentation > Servers and Services
+title: MAMP PRO (Windows) Documentation > Servers and Services
 description: 
 layout: default-2
 product: MAMP PRO Windows

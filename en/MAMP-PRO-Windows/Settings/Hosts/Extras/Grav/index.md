@@ -25,10 +25,10 @@ Grav is a modern open source flat-file CMS. An installation of Grav does not req
    Note: You must enter a valid email address to setup a Grav installation.
    </div>
 
-*  **Username:**  
+*  **User name:**  
    Your Grav admin name.
    <div class="alert" role="alert">
-   Note: You will need this username to login into your new of Grav site, please write this down. 
+   Note: You will need this user name to login into your new of Grav site, please write this down. 
    </div>
 
 *  **Password:**  

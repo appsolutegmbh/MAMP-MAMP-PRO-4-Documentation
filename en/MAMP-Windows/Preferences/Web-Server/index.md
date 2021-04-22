@@ -4,6 +4,7 @@ description: MAMP (Windows) Documentation > Preferences > Web Server
 layout: default-2
 product: MAMP Windows
 language: en
+lastedit: 2021-03-26
 ---
 
 ## Preferences > Web Server
@@ -14,5 +15,4 @@ language: en
    Choose either the Apache or Nginx web server.
 
 *   **Document Root** 
-   Click on to select where your html/PHP files and images are stored. This directory is called the document root.
-   The default document root in MAMP is: `C:\MAMP\htdocs`.
+   Click on to select where your html/PHP files and images are stored. This directory is called the document root. The default document root in MAMP is: "C:\MAMP\htdocs".

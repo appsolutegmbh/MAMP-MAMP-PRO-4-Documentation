@@ -14,7 +14,7 @@ define('DB_NAME', 'wordpress');
 
 ---
 
-Confirm your DB_USER in your wp-config.php file corresponds to your MySQL username. By default, MAMP PRO uses the MySQL 'root' user.
+Confirm your DB_USER in your wp-config.php file corresponds to your MySQL user name. By default, MAMP PRO uses the MySQL 'root' user.
 
 define('DB_USER', 'root');
 

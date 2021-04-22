@@ -12,10 +12,10 @@ If you would like to make your hosts accessible from the internet (Don't forget 
 
 If your network is connected to the internet via a router and it can handle Dynamic DNS Services, then you don’t need to configure it with MAMP PRO. 
 
-Otherwise you will need to register with a Dynamic DNS Service and enter the username and password into the appropriate fields. Then you will need to tell MAMP PRO when to inform the Dynamic DNS provider about a change in your Macs IP address. It may be necessary when you restart your computer or a DSL/Cable modem re/establishes a connection.
+Otherwise you will need to register with a Dynamic DNS Service and enter the user name and password into the appropriate fields. Then you will need to tell MAMP PRO when to inform the Dynamic DNS provider about a change in your Macs IP address. It may be necessary when you restart your computer or a DSL/Cable modem re/establishes a connection.
 
 <div class="alert" role="alert">
-Note: To use the Dynamic DNS functions, you will need to register with one of the supported providers. This is independent of MAMP PRO and is not a service provided by appsolute GmbH.
+Note: To use the Dynamic DNS functions, you will need to register with one of the supported providers. This is independent of MAMP PRO and is not a service provided by MAMP GmbH.
 </div>
 
 ![MAMP](/en/MAMP-PRO-Windows/Servers-and-Services/Dynamic-DNS/dynDNS.png)

@@ -28,6 +28,6 @@ At this time the MAMP Viewer does not support Magento installations.
 #### How do I refresh my list of hosts?
 Pull down on your iOS device screen to refresh your hosts.
 
-#### Can I use Wordpress Multisite?
-At this time the MAMP Viewer does not support Wordpress multisite.
+#### Can I use WordPress Multisite?
+At this time the MAMP Viewer does not support WordPress multisite.
 

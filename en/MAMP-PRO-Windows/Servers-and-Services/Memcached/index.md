@@ -30,7 +30,7 @@ Memcached is an in-memory key-value store for small chunks of arbitrary data.
 
     Choose the level of detail for your log file. 
 
-*  **Path to MemCached log file**
+*  **Path to Memcached log file**
 
     Errors occurring during execution of the Memcached server will be saved in this log file.
 

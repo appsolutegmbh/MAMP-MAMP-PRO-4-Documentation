@@ -34,12 +34,12 @@ Drupal is content management software. It's used to make many of the websites an
 
 *  **Database name:**  
    Set the name of your database schema which will be added to your local database.  
-   After installation you can view this database for this instance of Drupal using phpMyAdmin, Sequel Pro, or           MySQLWorkbench. 
+   After installation you can view this database for this instance of Drupal using phpMyAdmin, Sequel Pro, or MySQLWorkbench. 
  
-*  **Username:**  
-   The Drupal admin's username.
+*  **User name:**  
+   The Drupal admin's user name.
    <div class="alert" role="alert">
-   Note: You will need this username to login into your new of Drupal site, please write this down. 
+   Note: You will need this user name to login into your new of Drupal site, please write this down. 
    </div>
 
 *  **Password:**  

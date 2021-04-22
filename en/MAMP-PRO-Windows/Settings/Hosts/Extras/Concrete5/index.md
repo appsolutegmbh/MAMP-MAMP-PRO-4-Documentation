@@ -4,6 +4,7 @@ description:
 layout: default-2
 product: MAMP PRO Windows
 language: en
+lastedit: 2021-03-26
 ---
 
 ## Settings > Hosts > Extras > Concrete5
@@ -31,12 +32,12 @@ Concrete5 is an open source content management system. More information about co
 
 *  **Database name:**  
    Set the name of your database schema which will be added to your local database.  
-   After installation you can view this database for this instance of concrete5 using phpMyAdmin, Sequel Pro, or           MySQLWorkbench. 
+   After installation you can view this database for this instance of concrete5 using phpMyAdmin, Sequel Pro, or MySQLWorkbench. 
  
-*  **Username:**  
+*  **User name:**  
    The concrete5 admin.
    <div class="alert" role="alert">
-   Note: You will need this username to login into your new of concrete5 site, please write this down. 
+   Note: You will need this user name to login into your new of concrete5 site, please write this down. 
    </div>
 
 *  **Password:**  
@@ -49,6 +50,4 @@ Concrete5 is an open source content management system. More information about co
 
 ### Configuration
 
-If you choose to change the database port after installation, you must also change the port number in the `application\config\database.php` file in your document root. Your port number is part of the "server" variable.
-
-
+If you choose to change the database port after installation, you must also change the port number in the "application\config\database.php" file in your document root. Your port number is part of the "server" variable.

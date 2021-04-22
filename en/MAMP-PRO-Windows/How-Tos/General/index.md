@@ -13,8 +13,4 @@ language: en
 - [Install ionCube](ionCube/)
 - [Install Composer](SetupComposer/)
 - [Use Nginx as reverse proxy for Apache while redirecting to a host other than localhost](NginxReverseProxy/)
-
-
-
-
-
+- [Use a mapped drive for document root locations](MappedDrive/)

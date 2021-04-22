@@ -26,10 +26,10 @@ webEdition is an open source web application framework and content management sy
    Set the name of your database schema which will be added to your local database.
    After installation you can view this database for this instance of webEdition using phpMyAdmin, Sequel Pro, or          MySQLWorkbench.
 
-*  **Username:**  
+*  **User name:**  
    The webEdition admin.
    <div class="alert" role="alert">   
-   Note: You will need this username to login into your new webEdition site, please write this down.  
+   Note: You will need this user name to login into your new webEdition site, please write this down.  
    </div>
 
 *  **Password:**  

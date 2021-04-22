@@ -47,7 +47,6 @@ Apache options can be set for the selected virtual host in the table. These opti
 *  **Additional Parameters for &lt;VirtualHost&gt; directive**  
    These directives go directly to the httpd.conf file. 
 
-
    *  **Server admin**  
       The email address Apache will send error messages to.
 
@@ -60,7 +59,3 @@ Note: Watch out for typos, they will otherwise prevent Apache from starting up.
 *  **httpd.conf file**  
 
    You cannot directly edit your httpd.conf file in MAMP PRO. You need to make custom configurations through your httpd.conf template file. More information on how to [configure your httpd template file](../../../Menu/File#edit_templates) can be found in our Menu > File section.
-
-
-
-

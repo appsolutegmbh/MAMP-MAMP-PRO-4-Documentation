@@ -6,9 +6,9 @@ product: MAMP Windows
 language: en
 ---
 
-## What is MAMP ? 
+## What is MAMP? 
 
-MAMP is a one-click-solution for setting up your personal webserver. MAMP installs a local server environment in a matter of seconds on your computer.
+MAMP is a one-click-solution for setting up your personal web server. MAMP installs a local server environment in a matter of seconds on your computer.
 
 ![MAMP](/en/MAMP-Windows/First-Steps/MAMP.png)
 

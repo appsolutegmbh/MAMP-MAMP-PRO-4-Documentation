@@ -13,11 +13,8 @@ language: en
 
 ![MAMP](/en/MAMP-PRO-Windows/How-Tos/General/RedirectToHttpsMAMPPRO/RedirectToHttpsMAMP.png)
 
-{% highlight php %}
-
+```
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
-
-{% endhighlight %}
-
+```

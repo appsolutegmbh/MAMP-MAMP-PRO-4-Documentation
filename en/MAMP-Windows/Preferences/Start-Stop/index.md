@@ -20,7 +20,7 @@ language: en
    The WebStart page will automatically open at the startup of MAMP when you select this option. See the Open Webstart Page section for more information on the MAMP start page.
 
 *   **Stop Servers**  
-   The Apache/NGinx and MySQL services will be stopped automatically when you quit MAMP.
+   The Apache/Nginx and MySQL services will be stopped automatically when you quit MAMP.
 
 *   **My Favorite Link**  
    A link to this address will appear on the top menu of your WebStart page.

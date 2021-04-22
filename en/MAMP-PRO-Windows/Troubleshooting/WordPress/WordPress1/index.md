@@ -6,6 +6,6 @@ product: MAMP PRO Windows
 language: en
 ---
 
-### I try to open up my Wordpress site and the web browser says "Cannot connect to server" ?
+### I try to open up my WordPress site and the web browser says "Cannot connect to server"?
 
-Confirm you are using the correct ports for your Wordpress site? Confirm your Wordpress site it using the same ports that it was originally created with. It is best to create and only use port 80 for a WordPress website.
+Confirm you are using the correct ports for your WordPress site? Confirm your WordPress site it using the same ports that it was originally created with. It is best to create and only use port 80 for a WordPress website.

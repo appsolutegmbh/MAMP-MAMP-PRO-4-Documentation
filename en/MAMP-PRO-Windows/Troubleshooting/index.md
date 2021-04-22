@@ -10,4 +10,5 @@ language: en
 
 - [General](General/)  
 - [WordPress](WordPress/)  
-- [MySQL and Databases](Databases/)  
+- [MySQL and Databases](Databases/)
+- [Cloud](Cloud/)

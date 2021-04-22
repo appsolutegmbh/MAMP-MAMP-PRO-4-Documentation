@@ -4,13 +4,14 @@ description:
 layout: default-2
 product: MAMP Windows
 language: en
+lastedit: 2021-03-26
 ---
 
 ## How to install Drupal
 
 ### Download Drupal and setup document root
 
-Download Drupal [here](https://drupal.org){:target="_blank"} . After downloading, the resulting zip file should be in your `C:\Downloads` folder. Unzip this drupal.zip file. You should now see a `C:\Downloads\Drupal` folder. Move the contents of this folder  to `C:\Applications\MAMP\htdocs`.
+Download Drupal [here](https://drupal.org){:target="_blank"}. After downloading, the resulting zip file should be in your "C:\Downloads" folder. Unzip this drupal.zip file. You should now see a "C:\Downloads\Drupal" folder. Move the contents of this folder to "C:\Applications\MAMP\htdocs".
 
 ### Create database
 
@@ -24,7 +25,7 @@ Go to Open Start Page, click on "MyWebsite" on the top menu bar, you should now 
 
 ![MAMP](/en/MAMP-Windows/How-Tos/Drupal/MyWebsiteLink.png)
 
-The following fields are the default for the MAMP PRO MySQL installation, username: "root", password: "root", database host: "localhost" and port to 8889.
+The following fields are the default for the MAMP PRO MySQL installation, user name: "root", password: "root", database host: "localhost" and port to 8889.
 
 ![MAMP](/en/MAMP-Windows/How-Tos/Drupal/drupalWizard1.png)
 

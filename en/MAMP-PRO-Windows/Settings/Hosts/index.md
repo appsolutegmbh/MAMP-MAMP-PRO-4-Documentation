@@ -12,4 +12,6 @@ language: en
 - [Apache](Apache/)  
 - [Nginx](Nginx/)  
 - [SSL](SSL/)
+- [Databases](Databases/)  
 - [Extras](Extras/)  
+- [Cloud](Cloud/)  

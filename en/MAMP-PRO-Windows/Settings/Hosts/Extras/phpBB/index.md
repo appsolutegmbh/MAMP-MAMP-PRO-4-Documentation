@@ -31,10 +31,10 @@ phpBB is an Internet forum package written in the PHP scripting language. More i
    Set the name of your database schema which will be added to your local database.  
    After installation you can view this database using phpMyAdmin, Sequel Pro, or MySQLWorkbench. 
  
-*  **Username:**  
-   The phpBB admin. Use this username to log into the admin area of your phpBB installation. 
+*  **User name:**  
+   The phpBB admin. Use this user name to log into the admin area of your phpBB installation. 
    <div class="alert" role="alert">   
-   Note: You will need this username to login into your new of phpBB installation, please write this down.
+   Note: You will need this user name to login into your new of phpBB installation, please write this down.
    </div>
 *  **Password:**  
    The phpBB admins default password. Use this password to log into the admin area of your phpBB installation.

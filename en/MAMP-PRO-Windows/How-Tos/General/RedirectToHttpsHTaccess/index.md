@@ -11,19 +11,10 @@ language: en
 1. Create a .htaccess file using the MAMP PRO Editor and save this file in your document root.
 2. Add the following lines to your .htaccess file.
 
-![MAMP](/en/MAMP-PRO-Mac/How-Tos/General/httpsRedirect.png)
-
-{% highlight php %}
-
+```
 <ifmodule mod_rewrite.c="">  
 RewriteEngine On   
 RewriteCond %{HTTPS} off    
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]    
 </ifmodule>    
-
-{% endhighlight %}
-
-
-
-
-
+```

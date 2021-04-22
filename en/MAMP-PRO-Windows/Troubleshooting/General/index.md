@@ -13,4 +13,7 @@ language: en
 - [When I type http://localhost in my browser it brings me to Google search?](General3/)
 - [Changes to my php.ini file and/or my httpd.conf file are not showing up when I restart MAMP PRO.](General4/)
 - [My PHP scripts are timing out](General5/)
+- [I cannot see my localhost using the Edge browser](General6/)
+
+
 

@@ -8,8 +8,7 @@ language: en
 
 ### Connect to MySQL from PHP (PHP <= 5.5.x)
 
-{% highlight php %}
-
+```php
 $user = 'root';
 $password = 'root';
 $db = 'inventory';
@@ -25,6 +24,4 @@ $db_selected = mysql_select_db(
    $db, 
    $link
 );
-
-{% endhighlight %}
-
+```

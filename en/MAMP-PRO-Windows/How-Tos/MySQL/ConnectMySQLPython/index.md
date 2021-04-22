@@ -1,5 +1,5 @@
 ---
-title: MAMP PRO (Mac) Documentation > How Tos > MySQL
+title: MAMP PRO (Windows) Documentation > How Tos > MySQL
 description: 
 layout: default-2
 product: MAMP PRO Mac
@@ -8,8 +8,7 @@ language: en
 
 ### How to connect to MySQL using Python 
 
-{% highlight php %}
-
+```python
 import mysql.connector
 
 config = {
@@ -21,7 +20,4 @@ config = {
 }
 
 link = mysql.connector.connect(**config)
-
-{% endhighlight %}
-
-
+```

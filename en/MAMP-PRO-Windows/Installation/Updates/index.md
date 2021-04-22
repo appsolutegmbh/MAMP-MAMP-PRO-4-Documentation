@@ -12,7 +12,7 @@ You can update several components directly through the MAMP PRO interface using 
 
 ![MAMP](/en/MAMP-PRO-Mac/Installation/Updates/Updates.png)
 
-You can install additional versions of php versions directly from the [PHP tab](../../Languages/PHP).
+You can install additional versions of PHP versions directly from the [PHP tab](../../Languages/PHP).
 
 ![MAMP](/en/MAMP-PRO-Mac/Installation/Updates/phpUpdates.png)
 

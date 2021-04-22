@@ -33,14 +33,14 @@ MediaWiki is a free software open source wiki package written in PHP, originally
    Set the name of your database schema which will be added to your local database.  
    After installation you can view this database using phpMyAdmin, Sequel Pro, or MySQLWorkbench. 
  
-*  **Username:**  
-   Use this username to log into the admin area of your Mediawiki installation.  
+*  **User name:**  
+   Use this user name to log into the admin area of your Mediawiki installation.  
    <div class="alert" role="alert">
-   Note: You will need this username to login into your new of Mediawiki blog, please write this down.
+   Note: You will need this user name to login into your new of Mediawiki blog, please write this down.
    </div>
 
 *  **Password:**  
-   Use this password to log into the admin area of your MediaWikin installation.  
+   Use this password to log into the admin area of your MediaWiki installation.  
    <div class="alert" role="alert">   
    Note: You will need this password to login into your new Mediawiki blog, please write this down.
    </div>
