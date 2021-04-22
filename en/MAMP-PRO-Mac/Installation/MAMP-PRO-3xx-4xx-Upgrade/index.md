@@ -15,7 +15,7 @@ When upgrading to MAMP PRO 4 you will be asked to upgrade your data to MySQL 5.6
 3. The installer will rename your existing `/Applications/MAMP` to `/Applications/MAMP_current_date`. This folder can later be deleted. You may however keep it, so you can fall back to your original setup.
 4. Your existing `htdocs` folder will be moved to your new `/Applications/MAMP` folder.
 5. Confirm that all data has been transferred correctly before starting MAMP PRO.
-6. If you were using MySQL 5.5 (most likely scenerio) you will be informed of the upgrade to MySQL 5.6 . 
+6. If you were using MySQL 5.5 (most likely scenerio) you will be informed of the upgrade to MySQL 5.6. 
 
 ![MAMP](/en/MAMP-PRO-Mac/Installation/MAMP-PRO-3xx-4xx-Upgrade/UpgradeMySQLNotice.png)
 
