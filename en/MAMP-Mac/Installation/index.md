@@ -20,7 +20,7 @@ To use the MAMP, your system must meet the following requirements:
 
 ### New Installation
 
-1. Download MAMP PRO from [www.mamp.info](https://www.mamp.info){:target="_blank"} .
+1. Download MAMP PRO from [www.mamp.info](https://www.mamp.info/en/downloads/){:target="_blank"} .
 2. Double click on the file `MAMP_MAMP_PRO_4.0.pkg` in your Downloads folder.
 3. The System Installer will guide you through the installation process.
 
@@ -36,7 +36,7 @@ When installing MAMP, an `/Applications/MAMP PRO` folder will be installed in ad
 
 You should backup your database data before upgrading from MAMP 3 to MAMP 4. Your database data is located in  `/Applications/MAMP/db`
 
-1. Download MAMP PRO from [www.mamp.info](https://www.mamp.info){:target="_blank"} .
+1. Download MAMP PRO from [www.mamp.info](https://www.mamp.info/en/downloads/){:target="_blank"} .
 2. Double click on the file `MAMP_MAMP_PRO_4.0.pkg` in your Downloads folder.
 3. The System Installer will guide you through the installation process.
 4. The installer will rename its `MAMP` folder to `MAMP_current_date`.
