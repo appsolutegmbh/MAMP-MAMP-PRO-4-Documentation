@@ -392,6 +392,13 @@ footer p {
     }
   }
 
+  #tipue_search_error {
+	font-family: 'Raleway', sans-serif !important;
+	color: #262626;
+	font-size: 1.2rem;
+	line-height: 160%;
+  }
+
   .tipue_search_content_text {
     display: none;
   }
